@@ -1,0 +1,74 @@
+# Ignore build results
+bin/
+obj/
+out/
+
+# Ignore user-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore logs
+*.log
+
+# Ignore Visual Studio files
+.vs/
+.vscode/
+
+# Ignore package-related files
+packages/
+*.nupkg
+*.snupkg
+
+# Ignore environment settings
+.env
+*.env
+
+# Ignore compiled and cached files
+*.dll
+*.pdb
+*.exe
+*.dbmdl
+*.cache
+*.ide
+
+# Ignore lock files
+project.lock.json
+project.fragment.lock.json
+*.lock.json
+
+# Ignore publish-related files
+wwwroot/
+publish/
+app.publish/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Ignore Recycle Bin folder
+$RECYCLE.BIN/
+
+# Ignore Rider IDE files
+.idea/
+
+# Ignore dependencies
+node_modules/
+bower_components/
+
+# Ignore Docker files
+docker-compose.override.yml
+docker-compose.override.*.yml
+.docker/
+*.dockerignore
+
+# Ignore JetBrains Rider settings
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db

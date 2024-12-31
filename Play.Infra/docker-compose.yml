@@ -1,0 +1,13 @@
+#Run docker-compose -d up to start the container in detatch mode, which means it will not show all the statements while running.
+version: '3.8'
+services:
+  mongo:
+    image: "mongo:latest"
+    container_name: "mongo"
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodbdata:/data/db
+
+volumes:
+  mongodbdata:
