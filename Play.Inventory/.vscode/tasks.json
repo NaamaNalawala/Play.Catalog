@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+            "build",
+            "${workspaceFolder}/src/Play.Inventory.Service/Play.Inventory.Service.csproj"
+            ],
+            "problemMatcher": "$msCompile",
+            "group":{
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Build the .NET project"
+        },
+        {
+            "label": "run",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+            "run",
+            "--project",
+            "${workspaceFolder}/src/Play.Inventory.Service/Play.Inventory.Service.csproj"
+            ],
+            "problemMatcher": [],
+            "detail": "Run the .NET project"
+        },
+        
+    ]
+}

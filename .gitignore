@@ -1,2 +1,8 @@
 src/Play.Catalog.Service/bin/Debug/
 src/Play.Catalog.Service/obj/
+/Play.Common/src/Play.Common/obj/Debug/net8.0/Play.Common.AssemblyInfo.cs
+/Play.Common/src/Play.Common/obj/Debug/net8.0/Play.Common.AssemblyInfoInputs.cache
+/Play.Common/src/Play.Common/obj/Play.Common.csproj.nuget.dgspec.json
+/Play.Common/src/Play.Common/obj/project.assets.json
+/Play.Common/src/Play.Common/obj/project.nuget.cache
+/Play.Inventory/src/Play.Inventory.Service/obj/
